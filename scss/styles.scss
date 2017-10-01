@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+@import 'typography';
+@import 'colors';
+@import 'responsive';
+@import 'nav';
+@import 'header';
+@import 'content';
+@import 'footer';
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 14px;
+    color: $font-body;
+    font-family: Arial, Helvetica, sans-serif;
+    h1,
+    h2 {
+        font-family: $pacifico, cursive;
+    }
+    h2 {
+        color: $font-h2;
+        font-size: 40px;
+        font-weight: normal;
+        margin: 15px 0;
+    }
+    .container {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+} 

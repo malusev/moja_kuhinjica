@@ -1,0 +1,142 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* tablet verzija */
+
+@media only screen and (max-width:899px) {
+	
+	.container {
+		padding:0 20px;
+	}
+	
+	.product-list {
+		width:100%;
+	}
+	
+	.product-list li {
+		width:24%;
+		margin:0;
+		padding:0;
+	}
+	
+	.product-list li span {
+		width:100%;
+	}
+	
+	.nav-list {
+		width:100%;
+	
+}
+
+.nav-list li {
+	display:block;
+	border-bottom: #f2801d solid 1px;
+	text-align:center;
+	line-height:30px;
+}
+
+.nav-list li:first-child {
+	border-top:#f2801d solid 1px;
+}
+
+.nav-list li:hover {
+	background-color:#f2801d ;
+	cursor:pointer;
+}
+	
+	.social-list {
+		position:absolute;
+		top:0;
+		right:10px;
+	}
+}
+
+/*mobilna verzija */
+
+@media only screen and (max-width:480px) {
+
+/*.nav-list {
+	display:none;
+}*/
+
+.feature-list {
+	background-image:none;
+	width:100%;
+	margin:0;
+	padding:0;
+	height:auto;
+}
+
+.feature-list li {
+	background-image:url(../images/feature-bg.jpg);
+	width:100%;
+	float:none;
+	height:150px;
+	padding:20px 0 10px 0;
+	margin:0;
+	border-bottom:1px solid white;
+}
+
+.feature-list li:first-child {
+	border-top:1px solid white;
+}
+
+.feature-title {
+	margin:0;
+	padding:0;
+}
+
+.feature-dom {
+	background-position: 20% 50%;
+}
+
+.feature-kin {
+	background-position: left center;
+	
+}
+
+.feature-pizze {
+	background-position: right -300px;
+	
+}
+
+.product-list {
+	width:100%;
+}
+
+.product-list li {
+	width:100%;
+}
+
+footer .one-third {
+	width:100%;
+	float:none;
+}
+
+
+/*******mobilna navigacija*******/
+
+.nav-list {
+		width:100%;
+	
+}
+
+.nav-list li {
+	display:block;
+	border-bottom: #f2801d solid 1px;
+	text-align:center;
+	line-height:30px;
+}
+
+.nav-list li:first-child {
+	border-top:#f2801d solid 1px;
+}
+
+.nav-list li:hover {
+	background-color:#f2801d ;
+	cursor:pointer;
+}
+
+}
+
+
